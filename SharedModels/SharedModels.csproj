@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0</Version>
+    <PackageId>SartainStudios.SharedModels</PackageId>
+    <Authors>John Sartain</Authors>
+    <Company>Sartain Studios</Company>
+    <Product>Sartain Studios Shared Models</Product>
+    <Description>Shared Model library</Description>
+    <Copyright>Sartain Studios</Copyright>
+    <PackageProjectUrl>https://github.com/jhnsartain3/SartainStudiosSharedModels</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jhnsartain3/SartainStudiosSharedModels</RepositoryUrl>
+    <RepositoryType>Nuget Package</RepositoryType>
+    <PackageTags>SharedModels</PackageTags>
+    <RootNamespace>SartainStudios.SharedModels</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.13.1" />
+  </ItemGroup>
+
+</Project>
