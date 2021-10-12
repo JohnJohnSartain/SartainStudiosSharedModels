@@ -10,6 +10,5 @@ public abstract class UserSpecificEntityBase
     public string? Id { get; set; }
 
     [BsonRepresentation(BsonType.ObjectId)]
-    [BsonElement("userid")]
     public string? UserId { get; set; }
 }
