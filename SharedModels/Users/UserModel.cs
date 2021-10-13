@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using MongoDB.Bson.Serialization.Attributes;
 
 namespace SartainStudios.SharedModels.Users;
 
@@ -15,23 +14,23 @@ public class UserModel : NonUserSpecificEntityBase
 
     [EmailAddress]
     [DataType(DataType.EmailAddress)]
-    public string Email { get; set; }
+    public string? Email { get; set; }
 
     [MaxLength(30)]
-    public string FirstName { get; set; }
+    public string? FirstName { get; set; }
 
     [MaxLength(30)]
-    public string Lastname { get; set; }
+    public string? Lastname { get; set; }
 
-    public string ProfilePhoto { get; set; }
+    public string? ProfilePhoto { get; set; }
 
-    public string[] Roles { get; set; }
-
-    [DataType(DataType.DateTime)]
-    public DateTime Created { get; set; }
+    public string[]? Roles { get; set; }
 
     [DataType(DataType.DateTime)]
-    public DateTime[] AuthenticationHistory { get; set; }
+    public DateTime? Created { get; set; }
 
-    public string[] ApplicationsUsed { get; set; }
+    [DataType(DataType.DateTime)]
+    public DateTime[]? AuthenticationHistory { get; set; }
+
+    public string[]? ApplicationsUsed { get; set; }
 }
