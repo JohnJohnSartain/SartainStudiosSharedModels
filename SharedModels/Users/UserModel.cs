@@ -20,7 +20,7 @@ public class UserModel : NonUserSpecificEntityBase
     public string? FirstName { get; set; }
 
     [MaxLength(30)]
-    public string? Lastname { get; set; }
+    public string? LastName { get; set; }
 
     public string? ProfilePhoto { get; set; }
 
