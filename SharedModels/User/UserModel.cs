@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SartainStudios.SharedModels.Base;
+using System.ComponentModel.DataAnnotations;
 
-namespace SartainStudios.SharedModels.Users;
+namespace SartainStudios.SharedModels.User;
 
-public class UserModel : NonUserSpecificEntityBase
+public class UserModel : NonuserSpecificModel
 {
     [Required]
     [MinLength(3)]

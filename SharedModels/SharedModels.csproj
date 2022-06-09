@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <PackageId>SartainStudios.SharedModels</PackageId>
     <Authors>John Sartain</Authors>
     <Company>Sartain Studios</Company>
